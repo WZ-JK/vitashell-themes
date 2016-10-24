@@ -1,14 +1,14 @@
-﻿# VitaShell spanish translation by Shadyck, Darkmet98 and Keizel
+# VitaShell archivo de idioma
 
-# General strings - Carácteres generales
+# General strings
 ERROR                                = "Error 0x%08X."
-OK                                   = "Aceptar"
+OK                                   = "OK"
 YES                                  = "Sí"
 NO                                   = "No"
 CANCEL                               = "Cancelar"
 FOLDER                               = "Carpeta"
 
-# Progress strings - Carácteres de progresos
+# Progress strings
 MOVING                               = "Moviendo..."
 COPYING                              = "Copiando..."
 DELETING                             = "Eliminando..."
@@ -16,26 +16,27 @@ EXPORTING                            = "Exportando..."
 INSTALLING                           = "Instalando..."
 DOWNLOADING                          = "Descargando..."
 EXTRACTING                           = "Extrayendo..."
+COMPRESSING                          = "Comprimiendo..."
 HASHING                              = "Hashing..."
 
-# Audio player strings - Carácteres del reproductor de audio
+# Audio player strings
 TITLE                                = "Título"
 ALBUM                                = "Álbum"
 ARTIST                               = "Artista"
-GENRE                                = "Generó"
+GENRE                                = "Género"
 YEAR                                 = "Año"
 
-# Hex editor strings - Carácteres del editor hexadecimal
+# Hex editor strings
 OFFSET                               = "Offset"
 OPEN_HEX_EDITOR                      = "Abrir editor hexadecimal"
 
-# Text editor strings - Carácteres del editor de texto
-EDIT_LINE                            = "Editar línea"
-ENTER_SEARCH_TERM                    = "Introduzca el término de búsqueda"
+# Text editor strings
+EDIT_LINE                            = "Editar linea"
+ENTER_SEARCH_TERM                    = "Introduzca un termino de busqueda"
 CUT                                  = "Cortar"
-INSERT_EMPTY_LINE                    = "Insertar una línea"
+INSERT_EMPTY_LINE                    = "Introducir una línea vacía"
 
-# File browser context menu strings - Carácteres del menú contextual del explorador de archivos
+# File browser context menu strings
 MORE                                 = "Más"
 MARK_ALL                             = "Marcar todo"
 UNMARK_ALL                           = "Desmarcar todo"
@@ -45,39 +46,42 @@ PASTE                                = "Pegar"
 DELETE                               = "Eliminar"
 RENAME                               = "Renombrar"
 NEW_FOLDER                           = "Nueva carpeta"
+COMPRESS                             = "Comprimir"
 INSTALL_ALL                          = "Instalar todo"
+INSTALL_FOLDER                       = "Instalar carpeta"
 CALCULATE_SHA1                       = "Calcular SHA1"
 EXPORT_MEDIA                         = "Exportar multimedia"
-SEARCH                               = "Buscar"
+SEARCH                               = "Búscar"
 
-# File browser strings - Carácteres del explorador de archivos
-COPIED_FILE                          = "Seleccionado %d archivo/os."
-COPIED_FOLDER                        = "Seleccionado %d carpeta/as."
-COPIED_FILES_FOLDERS                 = "Seleccionado %d archivos y/o carpetas."
+# File browser strings
+COPIED_FILE                          = "Se ha copiado %d archivo(s)."
+COPIED_FOLDER                        = "Se ha copiado %d carpeta(s)."
+COPIED_FILES_FOLDERS                 = "Se ha copiado %d archivo(s)/carpeta(s)."
 
-# Dialog questions - Preguntas del diálogo
-DELETE_FILE_QUESTION                 = "¿Estás seguro de que quieres eliminar este/os archivo/os?"
-DELETE_FOLDER_QUESTION               = "¿Estás seguro de que quieres eliminar esta/as carpeta/as?"
-DELETE_FILES_FOLDERS_QUESTION        = "¿Estás seguro de que quieres eliminar estas carpetas y/o archivos?"
+# Dialog questions
+DELETE_FILE_QUESTION                 = "¿Estás seguro de que quieres eliminar este archivo?"
+DELETE_FOLDER_QUESTION               = "¿Estás seguro de que quieres eliminar esta carpeta?"
+DELETE_FILES_FOLDERS_QUESTION        = "¿Estás seguro de que quieres eliminar estos archivos/carpetas?"
 EXPORT_FILE_QUESTION                 = "¿Quieres exportar este archivo a multimedia?"
 EXPORT_FOLDER_QUESTION               = "¿Quieres exportar esta carpeta a multimedia?"
-EXPORT_FILES_FOLDERS_QUESTION        = "¿Quieres exportar estas carpetas y/o archivos a multimedia?"
+EXPORT_FILES_FOLDERS_QUESTION        = "¿Quieres exportar estos archivos/carpetas a multimedia?"
 EXPORT_NO_MEDIA                      = "No hay archivos multimedia disponibles para exportar."
-EXPORT_SONGS_INFO                    = "Exportada %d canción/es."
-EXPORT_PICTURES_INFO                 = "Exportada %d imagen/es."
-EXPORT_SONGS_PICTURES_INFO           = "Exportados %d canción/es y %d imagen/es."
-INSTALL_ALL_QUESTION                 = "¿Quieres instalar todos los ficheros que hay de esta carpeta?"
-INSTALL_QUESTION                     = "¿Quieres instalar este fichero?"
-INSTALL_WARNING                      = "Este fichero requiere de permisos especiales.\Puede tener acceso a tu información personal.\Si no lo has obtenido en un sitio seguro,\por favor, procede con cuidado.\\¿Quieres continuar con la instalación?"
-HASH_FILE_QUESTION				     = "Realizar la operación para el hashing SHA1 puede llegar a tardar un tiempo. ¿Quieres continuar?"
+EXPORT_SONGS_INFO                    = "Se ha exportado %d canción(es)."
+EXPORT_PICTURES_INFO                 = "Se ha exportado %d imagen(es)."
+EXPORT_SONGS_PICTURES_INFO           = "Se ha exportado %d canción(es) y %d imagen(es)."
+INSTALL_ALL_QUESTION                 = "¿Quieres instalar todos los paquetes disponibles de esta carpeta?"
+INSTALL_FOLDER_QUESTION              = "¿Quieres instalar esta carpeta?\¡Advertencia!: esta acción también eliminará\la carpeta después de la instalación."
+INSTALL_QUESTION                     = "¿Quieres instalar este paquete?"
+INSTALL_WARNING                      = "Este paquete requiere permisos extendidos.\Esto tendrá acceso a su información personal.\Si no lo obtuvistes de una fuente confiable,\por favor, proceda bajo su propia precaución.\\¿Le gustaría continuar con la instalación?"
+HASH_FILE_QUESTION                   = "El hashing del SHA1 podria llevar mucho tiempo. ¿Desea continuar?"
 
-# Others - Otros
+# Others
 PLEASE_WAIT                          = "Por favor, espere..."
-SAVE_MODIFICATIONS                   = "¿Quieres guardar estas modificaciones?"
-NO_SPACE_ERROR                       = "No hay espacio libre en la tarjeta de memoria.\Se necesita %s de espacio."
-WIFI_ERROR                           = "Tienes que activar la conexión Wi-Fi para usar esta función."
-FTP_SERVER                           = "El servidor FTP está activo en\ftp://%s:%i\\Pulsa 'Aceptar' para mantenerlo en segundo plano.\Pulsa 'Cancelar' para desconectarte."
-SYS_INFO                             = "Versión del sistema: %s\Modelo: 0x%08X\Dirección MAC: %s\Dirección IP: %s\Tarjeta de memoria: %s/%s"
-UPDATE_QUESTION                      = "VitaShell %s está disponible.\\¿Quieres actualizar la aplicación?"
-TOOLBOX                              = "Herramientas"
-SYSINFO_TITLE                        = "Información del sistema"
+SAVE_MODIFICATIONS                   = "¿Quieres guardar tus modificaciones?"
+NO_SPACE_ERROR                       = "No hay suficiente espacio libre en la memoria\tarjeta.\Se necesita al menos %s más de espacio."
+WIFI_ERROR                           = "Debes usar el Wi-Fi para hacer esto."
+FTP_SERVER                           = "El servidor FTP ahora está corriendo en\ftp://%s:%i\\Presiona 'OK' para mantenerlo en el fondo.\Presiona 'Cancelar' para desconectar."
+SYS_INFO                             = "Software del sistema: %s\Modelo: 0x%08X\Dirección MAC: %s\Dirección de IP: %s\Tarjeta de memoria: %s/%s\Nivel de la batería: %d%%"
+UPDATE_QUESTION                      = "VitaShell %s ya está disponible.\\¿Quieres actualizar la aplicación?"
+TOOLBOX                              = "Caja de herramientas"
+SYSINFO_TITLE                        = "Información del Sistema"
